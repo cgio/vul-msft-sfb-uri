@@ -1,4 +1,20 @@
+# MSFT SFB URI Vulnerability Report
 
+*Report date: October, 2018*
+
+## Summary
+
+A vulnerability exists in the Skype Meetings App executable (Skype Meetings App.exe). Microsoft SmartScreen and potentially other security features are circumvented. The vulnerability is exploited by launching a target website via the Skype for Business URI (sfb://). Skype Meetings App.exe uses Internet Explorer 11 to render the target website using Internet Explorer 7 Compatibility View. In comparison, on the same test machine, Internet Explorer 11's SmartScreen effectively blocks harmful websites.
+
+## Affected software
+
+File name: Skype Meetings App.exe
+
+Version: 16.2.0.242
+
+SHA-1: 6A882202AE92CA36AB64173A765538616F240855
+
+Product name: Skype Meetings App (32-bit)
 
 Product family:  Skype for Business
 
