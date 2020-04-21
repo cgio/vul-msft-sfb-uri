@@ -106,7 +106,7 @@ According to tests, the Skype Meetings App's IE11 allows VBScript, ActiveX, Wind
 
 Additionally, I uploaded a similar test to:
 
-`https://chadg.io/dangerous-link.html`
+`REDACTED`
 
 Clicking the "dangerous link" (points to `sfb://malware.wicar.org/data/ms14_064_ole_not_xp.html`) hyperlink in Microsoft Edge or Internet Explorer 11 will open the malicious website in the Skype Meetings App without a consent prompt. **This appears to be a significant security risk.** See registry keys at `HKLM\SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy`.
 
